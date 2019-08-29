@@ -7,7 +7,7 @@ double defaultScreenHeight = 810.0;
 double screenWidth = defaultScreenWidth;
 double screenHeight = defaultScreenHeight;
 
-class Constant {
+class ScreenUtils {
   /*Padding & Margin Constants*/
 
   static double sizeExtraSmall = 5.0;
@@ -41,6 +41,7 @@ class Constant {
   /*EdgeInsets*/
   static EdgeInsets spacingAllDefault = EdgeInsets.all(sizeDefault);
   static EdgeInsets spacingAllSmall = EdgeInsets.all(sizeSmall);
+  static EdgeInsets spacingAllMedium = EdgeInsets.all(sizeMedium);
 
   static void setDefaultSize(context) {
     screenSize = MediaQuery.of(context).size;
@@ -69,6 +70,7 @@ class Constant {
 
     spacingAllDefault = EdgeInsets.all(sizeDefault);
     spacingAllSmall = EdgeInsets.all(sizeSmall);
+    spacingAllMedium = EdgeInsets.all(sizeMedium);
 
     FontSize.setDefaultFontSize();
   }
@@ -97,6 +99,7 @@ class Constant {
 
     spacingAllDefault = EdgeInsets.all(sizeDefault);
     spacingAllSmall = EdgeInsets.all(sizeSmall);
+    spacingAllMedium = EdgeInsets.all(sizeMedium);
 
     /*Screen Size dependent Constants*/
     screenWidthHalf = ScreenUtil.instance.width / 2;

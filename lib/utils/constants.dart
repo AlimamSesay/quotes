@@ -1,0 +1,11 @@
+const String QUOTES = 'Quotes';
+const String MY_FAVORITES = 'My Favorites';
+const String ALL_GUOTES = 'ALL_GUOTES';
+const String FAVORITES_GUOTES = 'FAVORITES_GUOTES';
+const String QUOTES_BY_AUTHOR = 'QUOTES_BY_AUTHOR';
+const String QUOTES_BY_CATEGORY = 'QUOTES_BY_CATEGORY';
+const String ID = 'ID';
+const String HOUR = 'HOUR';
+const String MINUTE = 'MINUTE';
+const String LAUNCH = 'LAUNCH';
+const String NOTIFICATION = 'NOTIFICATION';
