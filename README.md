@@ -4,4 +4,4 @@
 
 ## Screehshots
 
-<img src="screenshots/test.png" height="480px" >
+<img src="screenshots/home.png" height="480px" > <img src="screenshots/qoutes.png" height="480px" > <img src="screenshots/first_quote.png" height="480px" > <img src="screenshots/middle_quote.png" height="480px" > <img src="screenshots/last_quote.png" height="480px" > <img src="screenshots/authors.png" height="480px" > <img src="screenshots/categories.png" height="480px" >
